@@ -1,1 +1,4 @@
+# Enable bzlmod for Bazel 9 compatibility (WORKSPACE is deprecated in Bazel 9)
+common --enable_bzlmod
+
 .bazelrc.absl
