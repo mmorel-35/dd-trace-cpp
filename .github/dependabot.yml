@@ -13,3 +13,11 @@ updates:
       gh-actions-packages:
         patterns:
           - "*"
+  - package-ecosystem: "bazel"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      bazel-packages:
+        patterns:
+          - "*"
